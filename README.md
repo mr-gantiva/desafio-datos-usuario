@@ -2,6 +2,9 @@
 
 Este proyecto es una aplicación web que obtiene y muestra datos de usuarios generados aleatoriamente utilizando la API [randomuser.me](https://randomuser.me/). Los datos de cada usuario se muestran en tarjetas interactivas con animaciones.
 
+## Demo
+
+[Ver demo](https://mr-gantiva.github.io/desafio-datos-usuario/)
 ## Características
 
 - Muestra información de 10 usuarios aleatorios.
