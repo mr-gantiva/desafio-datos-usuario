@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio guiado usuarios</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<style>
+    body {
+        max-width: 1200px;
+    }
+
+    #usuario-data {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card {
+        border-radius: 10px;
+        border: 1px solid #cdcdcd;
+        width: 250px;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        place-items: center;
+        overflow: hidden;
+        margin: 10px;
+        background: rgba(255, 255, 255, 0.2);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+    }
+
+    .card__img {
+        transition: all 0.25s;
+        height: 100%;
+        overflow: hidden;
+    }
+
+
+
+
+    .card__img img {
+        border-radius: 50%;
+        overflow: hidden;
+        padding: 10px;
+        transition: all 0.25s ease;
+    }
+
+    .card__img img:hover {
+        transform: scale(1.1);
+    }
+
+
+    .card__info {
+        width: 100%;
+        height: 100%;
+        background-color: #fff;
+        text-align: center;
+        color: #202B38;
+    }
+
+    p,
+    h2 {
+        color: #202B38;
+    }
+</style>
+
+<body>
+
+    <div id="usuario-data">
+
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
